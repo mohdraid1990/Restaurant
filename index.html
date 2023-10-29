@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- media query -->
+    <link rel="stylesheet" href="media query.css">
+    
+    <!-- Title -->
+    <title>Restaurant</title>
+    <!-- Animation by gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <!-- Swiper  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+</head>
+<body>
+
+  
+  <!-- Start header -->
+
+     <section class="header">
+        <a href="#" class="logo"><img src="image/logo.png" alt="#"></a>
+
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class="fa-solid fa-bars" style="color: #eceff3;" id="menu-icon"></i>
+            <i class="fa-solid fa-x" style="color: #fafcff; " id="close-icon"></i>
+        </label>
+
+
+
+        <nav class="navbar">
+            <a href="#home" style='--i:0'>Home</a>
+            <a href="#Menu" style='--i:2'>Menu</a>
+            <a href="#Customers" style='--i:3'>Customers</a>
+            <a href="#Contacts" style='--i:4'>Contacts</a>
+
+        </nav>
+
+    </section> 
+
+
+    <!-- End header -->
+
+    <!-- Start Home -->
+            
+<div class="home" id="home">
+  <div class="heading">
+     <h1>Welcome to the <span>Restaurant</span> </h1>
+     
+      <button>order it</button>
+
+  </div>
+
+  
+     </div> 
+
+    <!-- End Home -->
+
+
+    <!-- Start Menu -->
+    
+  <section class="Menu" id="Menu">
+    <h1 class="title">Menu </h1>
+    
+<!-- Swiper -->
+
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="image/Grilled steak with vegetables.avif" alt="Grilled steak with vegetables" />
+      <div>
+        <h2>Grilled steak with vegetables</h2>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <img src="image/Pizza.avif" alt="Pizza" />
+      <div>
+        <h2>Pizza</h2>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <img src="image/Sandwich with boiled egg.avif" alt="Sandwich with boiled egg" />
+      <div>
+        <h2>Sandwich with boiled egg</h2>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <img src="image/Toast bread with blueberry.jpeg" alt="Toast bread with blueberry" />
+      <div>
+        <h2>Toast bread with blueberry</h2>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <img src="image/Chicken burger.avif" alt="Chicken burger" />
+      <div>
+        <h2>Chicken burger</h2>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <img src="image/shish kebab.avif" alt="shish kebab" />
+      <div>
+        <h2>shish kebab</h2>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <img src="image/meat balls.avif" alt="meat balls" />
+      <div>
+        <h2>meat balls</h2>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <img src="image/shrimp.avif" alt="shrimp" />
+      <div>
+        <h2>shrimp</h2>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <img src="image/chickens.avif" alt="Chicken " />
+      <div>
+        <h2>Chicken </h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </section> 
+  <!-- End Menu -->
+
+
+ <!-- Start  Customers -->
+ 
+  <section class="Customers" id="Customers"> 
+
+ <div class="flip-card-container" style="--hue: 220">
+  <div class="flip-card">
+
+    <div class="card-front">
+      <figure>
+        <div class="img-bg"></div>
+        <img src="image/p-4.avif" alt="Angila">
+        <figcaption>Angila</figcaption>
+      </figure>
+
+     
+    </div>
+
+    <div class="card-back">
+      <figure>
+        <div class="img-bg"></div>
+        <img src="image/p-4.avif" alt=Angila">
+      </figure>
+
+     <div class="icons-0">
+          <i class="fa-brands fa-facebook"></i>
+     <i class="fa-brands fa-instagram"></i>
+     <i class="fa-brands fa-twitter"></i>
+     </div>
+
+     
+    </div>
+
+  </div>
+</div> 
+
+
+  <div class="flip-card-container" style="--hue: 170">
+  <div class="flip-card">
+
+    <div class="card-front">
+      <figure>
+        <div class="img-bg"></div>
+        <img src="image/p-3.avif" alt="Sarah">
+        <figcaption>Sarah</figcaption>
+      </figure>
+
+    
+    </div>
+
+    <div class="card-back">
+      <figure>
+        <div class="img-bg"></div>
+        <img src="image/p-3.avif" alt="image-2">
+      </figure>
+
+       <div class="icons-0">
+          <i class="fa-brands fa-facebook"></i>
+     <i class="fa-brands fa-instagram"></i>
+     <i class="fa-brands fa-twitter"></i>
+     </div>
+
+      
+    </div>
+
+  </div>
+</div> 
+
+
+<div class="flip-card-container" style="--hue: 350">
+  <div class="flip-card">
+
+    <div class="card-front">
+      <figure>
+        <div class="img-bg"></div>
+        <img src="image/p-2.avif" alt="Maria">
+        <figcaption>Maria</figcaption>
+      </figure>
+
+     
+    </div> 
+
+
+    <div class="card-back">
+       
+      
+      <figure>
+        <div class="img-bg"></div>
+        <img src="image/p-2.avif" alt="Maria">
+      </figure>
+      <div class="icons-0">
+          <i class="fa-brands fa-facebook"></i>
+     <i class="fa-brands fa-instagram"></i>
+     <i class="fa-brands fa-twitter"></i>
+        
+      </div>
+
+
+
+    
+    </div> 
+
+    
+
+  </div> 
+</div> 
+
+<div class="flip-card-container" style="--hue: 220">
+  <div class="flip-card">
+
+    <div class="card-front">
+      <figure>
+        <div class="img-bg"></div>
+        <img src="image/p-1.avif" alt="Marco">
+        <figcaption>Marco</figcaption>
+      </figure>
+
+     
+    </div> 
+
+    <div class="card-back">
+      <figure>
+        <div class="img-bg"></div>
+        <img src="image/p-1.avif" alt="Marco">
+      </figure>
+
+      <div class="icons-0">
+          <i class="fa-brands fa-facebook"></i>
+     <i class="fa-brands fa-instagram"></i>
+     <i class="fa-brands fa-twitter"></i>
+     </div>
+
+      
+
+  </div> 
+</div> 
+
+
+  
+   
+
+    
+
+  </section> 
+  <!-- End Customers -->
+
+
+
+
+    <!-- Start  footer -->
+  
+    <footer class="site-footer" id="Contacts">
+    
+      <div class="container">
+        <div class="row">
+          <div style="padding: 20px;">
+            <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
+         <a href="#">Eng .Mohd</a>
+            </p>
+          </div>
+
+          <hr>
+
+          <div>
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa-brands fa-facebook"></i>
+              <li><a class="instagram" href="https://instagram.com/mohd_r_90?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i>
+              <li><a class="linkedin" href="https://www.linkedin.com/in/mohammed-hameed-04b795267"><i class="fa-brands fa-linkedin"></i></a></li> 
+
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer> 
+
+  <!-- End  footer -->
+    
+
+     
+    
+    
+    
+
+
+
+
+
+ <script src="Script.js"></script>
+
+</body>
+</html>
+
